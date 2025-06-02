@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk
 WORKDIR /app
 
 # Copiază JAR-ul build-uit în container
-COPY target/app.jar app.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
 
 # Deschide portul pe care rulează aplicația
 EXPOSE 8080
