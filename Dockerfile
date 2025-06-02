@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk
 WORKDIR /app
 
 # Copiază JAR-ul build-uit în container
-COPY target/helloservice-0.0.1-SNAPSHOT.jar app.jar
+COPY target/app.jar app.jar
 
 # Deschide portul pe care rulează aplicația
 EXPOSE 8080
